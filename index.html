@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="csst1.css">
 </head>
 <body>
-    <h1> Girlfirend Forms</h1>
-    <form action=”mailto:samirgrbg561@gmail.com” method=”POST” enctype=”text/plain” name=”EmailForm”>
+    <h1>Girlfriend Forms</h1>
+    <form action="mailto:samirgrbg561@gmail.com" method="GET" enctype="text/plain" name="EmailForm">
+
         <label for="name">Name:</label>
         <div>
             <input type="text" name="myName" id="name">
@@ -27,7 +28,7 @@
         <br>
         <label for="Date">Date:</label>
         <div>
-            <input type="Date" name="myDate" id="Date" >
+            <input type="date" name="myDate" id="Date">
         </div>
         <br>
         <label for="love">Loving:</label>
@@ -36,14 +37,17 @@
         </div>
         <br>
         <div>
-            Are you eligible?<input type="checkbox" name="eligible?">
+            Are you eligible? <input type="checkbox" name="eligible">
         </div>
         <br>
         <div>
-            Gender: Male<input type="radio" name="Gender">Female:<input type="radio" name="Gender" >Other:<input type="radio" name="Gender">
+            Gender: 
+            Male <input type="radio" name="Gender" value="Male">
+            Female <input type="radio" name="Gender" value="Female">
+            Other <input type="radio" name="Gender" value="Other">
         </div>
         <br>
-        <label for="Yourself">Write about Yourself.</label>
+        <label for="Yourself">Write about Yourself:</label>
         <div>
             <textarea name="Mytext" cols="50" rows="20" id="Yourself"></textarea>
         </div>
